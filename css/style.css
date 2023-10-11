@@ -1,0 +1,65 @@
+body{
+    background: rgb(214,212,44);
+    background: linear-gradient(90deg, rgba(214,212,44,1) 0%, rgba(37,200,67,1) 50%, rgba(214,212,44,1) 100%);
+}
+
+.titulo{
+    font-size: 40px;
+    text-decoration: underline;
+    color: black;
+    background-color: transparent;
+    width: 200px
+}
+
+.titulo2{
+    font-size: 30px;
+    text-decoration: underline;
+    color: black;
+    background-color: transparent;
+    width: 200px
+}
+
+.titulo3{
+    font-size: 30px;
+    text-decoration: underline;
+    color: black;
+    background-color: transparent;
+}
+
+.textos{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.textos2{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    width: 400px;
+    height: 400px;
+    overflow: auto;
+
+}
+
+.imagenesyvideos{
+    border: solid 2px black;
+    padding: 1px;
+
+}
+
+.videos{
+    margin: 2%;
+    border: solid 5px rgb(161, 140, 210);
+}
+
+.pie{
+    list-style-type: none;
+    margin: 2%;
+}
+.listas{
+    list-style-type: none;
+}
+
+.titulosinteriores{
+    margin: 2px;
+    font-size: medium;
+}
