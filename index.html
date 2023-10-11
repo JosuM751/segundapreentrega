@@ -6,19 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./images/favicon_io/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>INOVA</title>
 </head>
 
-<body>
+<body class="container-fluid">
     <div>
-        <header>
-            <h1 class="titulo">INOVA MUEBLES</h1>
-            <h3>Acesoría</h3>
-            <h3><a href="">Haz tu presupuesto</a></h3>
+        <header class="row aling-items"> 
+            <h1 class="titulo" class="col-lg-6 col-md-8 col-sm-12">
+                INOVA MUEBLES
+            </h1>
+            <h3 class="col-lg-3 col-md-8 col-sm-12">
+                Acesoría
+            </h3>
+            <h3 class="col-lg-3 col-md-8 col-sm-12">
+                <a href="">Haz tu presupuesto</a>
+            </h3>
 
-            <nav class="nav">
-                <img src="./images/INOVA.jpg" alt="">
-                <ul class="listas">
+            <nav class="row">
+                <img class="col-lg-2 col-md-2 col-sm-2" src="./images/INOVA.jpg" alt="">
+                <ul class="col-lg-12 col-md-12 col-sm-12" class="listas">
                     <li><a href="./pages/MUEBLEs.html">MUEBLES</a></li>
                     <li><a href="./pages/INTERIORES.html">INTERIORES</a></li>
                     <li><a href="./pages/INSPIRACION.html">INSPIRACIÓN</a></li>
@@ -29,36 +37,27 @@
 
         <main>
         <div>
-            <div>
-                <iframe class="videos" width="1080" height="616" src="https://www.youtube.com/embed/1mdS6ynCO48"
+            <div class="row">
+                <iframe class="col-lg-5 col-md-12 col-sm-12, imagenesyvideos" class="videos" width="1080" height="616" src="https://www.youtube.com/embed/1mdS6ynCO48"
                 title="🥇🥇 10 VENTAJAS de crear muebles con MDF-MELAMINA (en menos de 1 minuto) 🕒" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
+
+                    <h2 class="col-lg-1 col-md-12 col-sm-12">YA LLEGARON LOS NUEVOS COLORES FAPLAC</h2>
+                    <a class="col-lg-1 col-md-12 col-sm-12" href="">CONOCELOS AQUÍ</a>
+                    <p class="textos, col-lg-4 col-md-12 col-sm-12">
+                        Faplac melamina es un tablero de MDP (aglomerado) o MDF revestido en ambas caras con papel decorativo impregnado con resinas melamínicas.
+                        Dimensiones: 1830mm x 2750mm.  Se encuentra disponible en una amplia variedad de diseños y texturas. Está listo para su utilización en la fabricación de muebles de todo tipo de ambientes.
+                        También sugerimos sus complementos ideales: Tableros de MDF 3 mm ideal para fondos de muebles y Tableros de MDF 5,5 mm, utilizado principalmente como revestimiento de interiores.
+                    </p>
             </div> 
-                    <div>
-                        <img class="imagenesyvideos" src="./images/m1.jpg" alt="" width= 20% height="200">
-                        <img class="imagenesyvideos" src="./images/m2.jpeg" alt="" width= 20% height="200">
-                        <img class="imagenesyvideos" src="./images/m3.jpg" alt="" width= 20% height="200">
-                        <img class="imagenesyvideos" src="./images/m4.jpeg" alt="" width= 20% height="200">
+                    <div class="row aling-items">
+                        <img class="col-lg-3 col-md-6 col-sm-12, imagenesyvideos" src="./images/m1.jpg" alt="" width= 20% height="200">
+                        <img class="col-lg-3 col-md-6 col-sm-12, imagenesyvideos" src="./images/m2.jpeg" alt="" width= 20% height="200">
+                        <img class="col-lg-3 col-md-6 col-sm-12, imagenesyvideos" src="./images/m3.jpg" alt="" width= 20% height="200">
+                        <img class="col-lg-3 col-md-6 col-sm-12, imagenesyvideos" src="./images/m4.jpeg" alt="" width= 20% height="200">
                     </div>
             </div>
-
-        <aside>
-            <h2>YA LLEGARON LOS NUEVOS COLORES FAPLAC</h2>
-            <a href="">CONOCELOS AQUÍ</a>
-            <p class="textos">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit iste rerum praesentium ipsum
-                excepturi! Dolorum, minus nisi? Numquam ipsum id molestias, reiciendis veniam ratione similique
-                perferendis
-                quasi cumque laborum maiores quos adipisci minus eaque a placeat velit iste ex porro debitis tenetur
-                dolore
-                itaque quas? Enim, optio earum deserunt praesentium excepturi velit expedita voluptatibus quisquam
-                nesciunt
-                recusandae dicta, dignissimos corporis exercitationem. Ex officiis repellat eaque, autem iure laudantium
-                velit dolores. Quos nihil repudiandae non ipsam aspernatur unde ad tempora numquam.
-            </p>
-        </aside>
-
 
             <ul class="listas">
                 <li><a href="./pages/EMPRESAS CON LAS QUE TRABAJAMOS.html">EMPRESAS CON LAS QUE TRABAJAMOS</a></li>
@@ -127,6 +126,8 @@
         </footer>
 
     </div>
-</body>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
 </html>
